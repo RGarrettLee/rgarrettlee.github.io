@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'gravityultralight';
+  src: url('fonts/ultralight/gravity-ultralight-webfont.woff2') format('woff2'),
+    url('fonts/ultralight/gravity-ultralight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gravitylight';
+  src: url('fonts/light/gravity-light-webfont.woff2') format('woff2'),
+    url('fonts/light/gravity-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gravityregular';
+  src: url('fonts/gravity/gravity-regular-webfont.woff2') format('woff2'),
+    url('fonts/gravity/gravity-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1.gravultralight {
+  font-family: 'gravityultralight', Arial, Sans-Serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1.gravlight {
+  font-family: 'gravitylight', Arial, Sans-Serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1.grav {
+  font-family: 'gravityregular', Arial, Sans-Serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1.gravultralightBold {
+  font-family: 'gravityultralight', Arial, Sans-Serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1.gravlightBold {
+  font-family: 'gravitylight', Arial, Sans-Serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+p.gravultralight {
+  font-family: 'gravityultralight', Arial, Sans-Serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+p.gravlight {
+  font-family: 'gravitylight', Arial, Sans-Serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+p.gravultralightBold {
+  font-family: 'gravityultralight', Arial, Sans-Serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+p.gravlightBold {
+  font-family: 'gravitylight', Arial, Sans-Serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+a.gravlightBold {
+  font-family: 'gravitylight', Arial, Sans-Serif;
+  font-weight: bold;
+  font-style: normal;
+}

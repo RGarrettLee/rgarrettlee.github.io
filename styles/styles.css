@@ -1,0 +1,73 @@
+body {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px;
+  padding: 10px;
+}
+
+.headingCenter {
+  margin: auto;
+  width: 50%;
+  border: 50px;
+  padding: 100px;
+}
+
+/* Navbar */
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  background-color: #ffffff;
+}
+
+/* Navbar links */
+.topnav a {
+  padding: 12px 16px;
+  float: left;
+  display: run-in;
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #f7f7f7;
+  color: black;
+  position: relative;
+}
+
+#top {
+  height: 800px;
+  width: 100%;
+  background: #ffffff;
+}
+
+#middle {
+  height: 900px;
+  width: 100%;
+  background: #ffffff;
+}
+
+#bottom {
+  height: 900px;
+  width: 100%;
+  background: #ffffff;
+}
+
+/*
+  <style>
+  .parallax {
+    background-image: url("ODST.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  </style>
+/*

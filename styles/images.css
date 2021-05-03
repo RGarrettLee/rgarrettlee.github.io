@@ -1,0 +1,30 @@
+.coderepimg {
+  padding-top: 5px;
+  background-image: url("images/coderepository.jpg");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.editingimg {
+  padding-top: 45px;
+  background-image: url("images/editingrepository.png");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.homeimg {
+  padding-top: 5px;
+  background-image: url("images/frontimage.jpg");
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.parallaxtester {
+  padding-top: 5px;
+  background-image: url("images/ODST.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
