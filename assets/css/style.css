@@ -1,0 +1,97 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* current scheme: darkkhaki body, #012F1E footer beige main peachpuff hover */
+body {
+    background-color: #55BDCA;/*#c2716e;*/
+    margin: 0;
+    top: -10px;
+    color: #1E160C;
+}
+
+footer {
+    background-color: #022249;
+    font-size: 12px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+nav {
+    top: 0;
+    background-color: #022249;
+    padding: 20px;
+    width: 100%;
+}
+
+ul {
+    text-align: right;
+    list-style-type: none;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    font-size: 20px;
+    margin: 30px;
+}
+
+li a {
+    color: #55BDCA;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #95FFFF;
+    text-decoration: solid underline;
+}
+
+.main {
+    background-color: #95FFFF;
+    padding-bottom: 40px;
+}
+
+.contact-form {
+    display: relative;
+    text-align: center;
+    padding: 40px;
+}
+
+.submission-form {
+    display: relative;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.button {
+    font-size: 18px;
+    background-color: darkslategrey;
+    color: white;
+    width: 100px;
+    height: 35px;
+}
+
+.button:hover {
+    background-color: grey;
+}
+
+.box {
+    display: block;
+    top: 0;
+    padding: 20px 100px 20px 100px;
+    border: 1px solid black;
+    border-radius: 15px 20px 30px 5px;
+}
+
+#page-title {
+    font-size: 40px;
+}

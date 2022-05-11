@@ -1,9 +1,50 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Garrett Lee</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Garrett's Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
-        <h1>This is a website</h1>
-        <h2>welcome</h2>
+        <nav>
+            <ul>
+                <li><a href="https://github.com/RGarrettLee">GitHub</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1></h1>
+        </header>
+        
+        <section class="main">
+            <br>
+            <h1 class="center-text" id="page-title">Garrett's Website</h1>
+            <img src="https://i.imgur.com/xzG3Zfn.png" alt="toadally awesome">
+            <p class="center-text">This image is toadally awesome!</p>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Me</h2>
+            <form class="submission-form" id="contact" action="#" method="POST">
+                <section class="box">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" size="50" placeholder="Enter your name here" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" size="50" placeholder="Enter your email here" required>
+                    <br>
+                    <button class="button" type="submit">Submit</button>
+                </section>
+            </form>
+        </section>
+
+        <footer>
+            <h3 class="center-text">But did you see the toad up top?</h3>
+        </footer>
     </body>
 </html>
