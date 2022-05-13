@@ -2,10 +2,30 @@ body {
     display: block;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+img:hover {
+    animation: rotation 2s infinite linear;
+}
+
 .title {
     text-align: center;
     font-size: 40px;
     margin-top: 4em;
+}
+
+.center {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
 }
 
 .image-container {
@@ -17,9 +37,6 @@ body {
     width: 20%;
   }
 
-img:hover {
-    animation: rotation 2s infinite linear;
-}
 
 @keyframes rotation {
     from {
